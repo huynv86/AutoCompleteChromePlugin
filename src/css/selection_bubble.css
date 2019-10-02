@@ -1,0 +1,44 @@
+
+.anti_overides_selection_bubble {
+    display: block;
+    position: fixed;
+    height: 1px;
+    box-sizing: border-box;
+    width: auto;
+    background-color: transparent;
+    z-index: 2147483647;
+
+    /*background:-webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f1f1f1));*/
+}
+
+.my_text {
+    display: inline-block;
+    height: auto;
+    text-align: left;
+    vertical-align: top;
+    padding: 1.6rem;
+    border-top: 0px;
+    transition: all 0.3s ease;
+    background: #ffffffff;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.internalContainer {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #003eff;
+}
+
+.tr {
+    box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 3px 0px, rgba(0, 0, 0, 0.239216) 0px 4px 10px 0px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    background: #ffffffff;
+    display: block;
+    vertical-align: middle;
+    text-align: right;
+}
